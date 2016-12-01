@@ -1,0 +1,57 @@
+.w-60{
+	width: 600px;
+}
+#formulario{
+	font-size: 15px;
+	background-color: white;
+	color:black;
+	border-top:5px solid #709FD7;
+}
+#formulario ,.row,.col-4,.col-8{
+	padding: 0;
+}
+#formulario *{
+	padding-bottom: 5px;
+}
+#formulario span{
+	color: red;
+	margin-right: 10px;
+}
+#formulario input{
+	height: 25px;
+	width: 70%;
+	margin-right: 20px;
+}
+#formulario textarea{
+	height: 60px;
+	width: 70%;
+	margin-right: 6%;
+}
+#formulario button{
+	color:white;
+	background-color:#74A3DB;
+	border:none;
+	padding:10px 15px; 
+}
+#formulario a{
+	display: inline-block;
+	height: 20px;
+	margin-right: 15px;
+
+}
+
+@media screen and (max-width: 639px){
+
+	#formulario {
+		width: 90%;
+		margin:0 auto;
+	}
+
+	#formulario *{
+		width: 80%;
+	}
+	#formulairo h1{
+		font-size: 10px;
+	}
+
+}
